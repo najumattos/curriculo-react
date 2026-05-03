@@ -20,43 +20,42 @@
     "autor": "Ana Julia Reis de Mattos",
     "caminhoArquivoMd": "posts/POST03.md"
   },
-    {
+  {
     "id": "4",
     "titulo": "Cartilha NIC-BR: Proteção de Dados",
     "dataPostagem": "2026-04-17",
     "autor": "Ana Julia Reis de Mattos",
     "caminhoArquivoMd": "posts/POST04.md"
   },
-    {
+  {
     "id": "5",
     "titulo": "Cartilha NIC-BR: Vazamento de Dados",
     "dataPostagem": "2026-04-18",
     "autor": "Ana Julia Reis de Mattos",
     "caminhoArquivoMd": "posts/POST05.md"
   },
-    {
+  {
     "id": "6",
     "titulo": "Linguagens Mobile",
     "dataPostagem": "2026-04-04",
     "autor": "Ana Julia Reis de Mattos",
     "caminhoArquivoMd": "posts/POST06.md"
   },
-  ,
-    {
+  {
     "id": "7",
     "titulo": "Tecnologias Mobile",
     "dataPostagem": "2026-04-05",
     "autor": "Ana Julia Reis de Mattos",
     "caminhoArquivoMd": "posts/POST07.md"
   },
-    {
+  {
     "id": "8",
     "titulo": "10 Heurísticas de Nielsen",
     "dataPostagem": "2026-04-29",
     "autor": "Ana Julia Reis de Mattos",
     "caminhoArquivoMd": "posts/POST08.md"
   },
-    {
+  {
     "id": "9",
     "titulo": "O que são os 'hackers'?",
     "dataPostagem": "2026-02-19",

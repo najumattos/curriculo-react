@@ -1,26 +1,25 @@
 import './App.css'
-import { useEffect, useState } from 'react';
-import { BlogContainer } from "./screens/Blog/BlogContainer";
-import Navbar from './components/Navbar';
-import ProfileAna from './screens/ProfileAna';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import { Navbar } from './components/Navbar';
+import Contato from './screens/Contato';
+import Sobre from './screens/Sobre';
+import { BlogContainer } from './screens/Blog/BlogContainer';
 
 function App() {
-  const getViewFromHash = () => (window.location.hash === '#curriculo' ? 'curriculo' : 'blog');
-  const [view, setView] = useState(getViewFromHash);
-
-  useEffect(() => {
-    const onHashChange = () => setView(getViewFromHash());
-    window.addEventListener('hashchange', onHashChange);
-    return () => window.removeEventListener('hashchange', onHashChange);
-  }, []);
-
   return (
-    <div className="App">    
-      <Navbar />
-      <section className="cv-item">
-        {view === 'curriculo' ? <ProfileAna /> : <BlogContainer />}
-      </section>      
-    </div>
+    <HashRouter>
+      <div className="App">
+        <Navbar />
+        <section className="cv-item">
+          <Routes>
+            <Route path="/artigos" element={<BlogContainer />} />
+            <Route path="/contato" element={<Contato />} />
+            <Route path="/sobre" element={<Sobre />} />
+            <Route path="/post/:postId" element={<BlogContainer />} />
+          </Routes>
+        </section>
+      </div>
+    </HashRouter>
   );
 }
 

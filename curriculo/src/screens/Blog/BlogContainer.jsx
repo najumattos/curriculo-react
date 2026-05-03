@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useEffect } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
 import { useBlogPosts } from '../../hooks/useBlogPosts';
 import { BlogListView } from './BlogListView';
 import { BlogPostDetailView } from './BlogPostDetailView';
@@ -10,7 +11,8 @@ import { BlogPostDetailView } from './BlogPostDetailView';
  */
 
 export function BlogContainer() {
-  const [showDetail, setShowDetail] = useState(false);
+  const navigate = useNavigate();
+  const { postId } = useParams();
   const { 
     posts, 
     selectedPost, 
@@ -21,36 +23,36 @@ export function BlogContainer() {
     deselectPost 
   } = useBlogPosts();
 
-  const handleSelectPost = async (postId) => {
-    await selectPost(postId);
-    setShowDetail(true);
-    // Scroll para o topo (útil em páginas longas)
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+  // Quando o postId na URL muda, seleciona o post
+  useEffect(() => {
+    if (postId) {
+      selectPost(postId);
+    } else {
+      deselectPost();
+    }
+  }, [postId, selectPost, deselectPost]);
+
+  const handleSelectPost = (selectedPostId) => {
+    navigate(`/post/${selectedPostId}`);
   };
 
-  const handleBackToList = () => {
-    setShowDetail(false);
-    deselectPost();
-  };
+  if (postId && selectedPost) {
+    return (
+      <BlogPostDetailView 
+        post={selectedPost}
+        content={markdownContent}
+        loading={loading}
+        error={error}
+      />
+    );
+  }
 
   return (
-    <>
-      {!showDetail ? (
-        <BlogListView 
-          posts={posts}
-          loading={loading}
-          error={error}
-          onSelectPost={handleSelectPost}
-        />
-      ) : (
-        <BlogPostDetailView 
-          post={selectedPost}
-          markdownContent={markdownContent}
-          loading={loading}
-          error={error}
-          onBack={handleBackToList}
-        />
-      )}
-    </>
+    <BlogListView 
+      posts={posts}
+      loading={loading}
+      error={error}
+      onSelectPost={handleSelectPost}
+    />
   );
 }

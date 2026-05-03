@@ -1,7 +1,20 @@
 import React from 'react'
 import './Style.css';
 
-const HeaderCV = ({ profile, redeSocial }) => {
+const HeaderCV = ({ 
+  profile = {
+    img: 'avatar.jpg',
+    nome: 'Ana Julia Reis de Mattos',
+    titulo: 'Desenvolvedora Full Stack',
+    descricao: 'Apaixonada por tecnologia e inovação'
+  }, 
+  redeSocial = {
+    emailPrincipal: 'ana@example.com',
+    emailSecundario: 'ana.mattos@example.com',
+    github: 'github.com/anajulia',
+    linkedin: 'linkedin.com/in/anajulia'
+  }
+}) => {
   return (
     <article className="profile-container">
       

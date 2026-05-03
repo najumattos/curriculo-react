@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 /**
@@ -9,9 +10,9 @@ import './Navbar.css';
  */
 export function Navbar({ links }) {
   const defaultLinks = [
-    { to: '/', label: 'Home' },
-    { to: '#curriculo', label: 'Curriculo' },
-    { to: '/sobre', label: 'Mural' },
+    { to: '/artigos', label: 'Artigos' },
+    { to: '/contato', label: 'Contato' },
+    { to: '/sobre', label: 'Sobre' },
   ];
   const navLinks = Array.isArray(links) && links.length ? links : defaultLinks;
 
@@ -72,9 +73,9 @@ export function Navbar({ links }) {
         >
           {navLinks.map(item => (
             <li key={item.to} role="none">
-              <a role="menuitem" href={item.to} className="nav-link" onClick={() => setOpen(false)}>
+              <Link role="menuitem" to={item.to} className="nav-link" onClick={() => setOpen(false)}>
                 {item.label}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
