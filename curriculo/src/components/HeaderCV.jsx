@@ -5,8 +5,8 @@ const HeaderCV = ({
   profile = {
     img: 'avatar.jpg',
     nome: 'Ana Julia Reis de Mattos',
-    titulo: 'Desenvolvedora Full Stack',
-    descricao: 'Apaixonada por tecnologia e inovação'
+    titulo: 'Desenvolvedora Backend',
+    descricao: 'Apaixonada por tecnologia e inovaçãoDesenvolvedora focada em arquitetura de sistemas e qualidade de código (SOLID, Testes Unitários). Responsável por pela API Connectamente com implementação de autenticação JWT, integração de Docker e fluxos de CI/CD via GitHub Actions. Experiência prática em React e Metodologias Ágeis (Kanban). Minha vivência anterior no comércio e como líder de turma me proporcionou soft skills diferenciadas em comunicação, liderança e resolução de problemas.'
   }, 
   redeSocial = {
     emailPrincipal: 'ana@example.com',
@@ -21,7 +21,7 @@ const HeaderCV = ({
       <section className='nome-foto'>
       <figure className="avatar-wrapper">
           <img
-            src={`/img/${profile.img}`}
+            src={`../assets/${profile.img}`}
             alt={`Foto de ${profile.nome}`}
             className="profile-image"
           />

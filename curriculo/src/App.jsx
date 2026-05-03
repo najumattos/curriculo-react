@@ -12,6 +12,7 @@ function App() {
         <Navbar />
         <section className="cv-item">
           <Routes>
+            <Route path="/" element={<BlogContainer />} />
             <Route path="/artigos" element={<BlogContainer />} />
             <Route path="/contato" element={<Contato />} />
             <Route path="/sobre" element={<Sobre />} />
