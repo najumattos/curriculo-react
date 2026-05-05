@@ -48,7 +48,9 @@ export function Navbar({ links }) {
   return (
     <nav className="navbar" role="navigation" aria-label="Main Navigation">
       <div className="nav-inner">
-        <div className="nav-brand">Ana Julia Reis de Mattos</div>
+        <Link to="/" className="nav-brand" onClick={() => setOpen(false)}>
+          Ana Julia Reis de Mattos
+        </Link>
 
         <button
           ref={buttonRef}

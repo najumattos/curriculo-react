@@ -16,8 +16,6 @@ export default function Sobre() {
           facilitando testes e manutenção.
         </p>
       </div>
-
-       <BackButton />
     </div>
   );
 }
