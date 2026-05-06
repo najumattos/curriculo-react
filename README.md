@@ -16,4 +16,4 @@ Este projeto nasceu da necessidade de escalar meu repositório de estudos. O que
 
 ## [saiba-mais]
 
-[saiba-mais]: https://www.linkedin.com/feed/update/urn:li:activity:7457825912437510144/
+[saiba-mais]: https://www.linkedin.com/feed/update/urn:li:activity:7457837142577340416/
