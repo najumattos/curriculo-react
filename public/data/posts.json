@@ -4,62 +4,71 @@
     "titulo": "MVC X DDD: Arquiteturas de Software e Metodologias de Design",
     "dataPostagem": "2026-04-30",
     "autor": "Ana Julia Reis de Mattos",
-    "caminhoArquivoMd": "posts/POST01.md"
+    "caminhoArquivoMd": "posts/POST01.md",
+    "caminhoArquivoGithub":"https://github.com/najumattos/blog-najuliarmattos/blob/main/public/posts/POST01.md"
   },
   {
     "id": "2",
     "titulo": "Plataformas de hospedagem de código-fonte voltadas para empresas",
     "dataPostagem": "2026-04-19",
     "autor": "Ana Julia Reis de Mattos",
-    "caminhoArquivoMd": "posts/POST02.md"
+    "caminhoArquivoMd": "posts/POST02.md",
+    "caminhoArquivoGithub":"https://github.com/najumattos/blog-najuliarmattos/blob/main/public/posts/POST02.md"
   },
   {
     "id": "3",
     "titulo": "Principais Conceitos Comunicação Cliente/API/Banco de Dados",
     "dataPostagem": "2026-04-13",
     "autor": "Ana Julia Reis de Mattos",
-    "caminhoArquivoMd": "posts/POST03.md"
+    "caminhoArquivoMd": "posts/POST03.md",
+    "caminhoArquivoGithub":"https://github.com/najumattos/blog-najuliarmattos/blob/main/public/posts/POST03.md"
   },
   {
     "id": "4",
     "titulo": "Cartilha NIC-BR: Proteção de Dados",
     "dataPostagem": "2026-04-17",
     "autor": "Ana Julia Reis de Mattos",
-    "caminhoArquivoMd": "posts/POST04.md"
+    "caminhoArquivoMd": "posts/POST04.md",
+    "caminhoArquivoGithub":"https://github.com/najumattos/blog-najuliarmattos/blob/main/public/posts/POST04.md"
   },
   {
     "id": "5",
     "titulo": "Cartilha NIC-BR: Vazamento de Dados",
     "dataPostagem": "2026-04-18",
     "autor": "Ana Julia Reis de Mattos",
-    "caminhoArquivoMd": "posts/POST05.md"
+    "caminhoArquivoMd": "posts/POST05.md",
+    "caminhoArquivoGithub":"https://github.com/najumattos/blog-najuliarmattos/blob/main/public/posts/POST05.md"
   },
   {
     "id": "6",
     "titulo": "Linguagens Mobile",
     "dataPostagem": "2026-04-04",
     "autor": "Ana Julia Reis de Mattos",
-    "caminhoArquivoMd": "posts/POST06.md"
+    "caminhoArquivoMd": "posts/POST06.md",
+    "caminhoArquivoGithub":"https://github.com/najumattos/blog-najuliarmattos/blob/main/public/posts/POST06.md"
   },
   {
     "id": "7",
     "titulo": "Tecnologias Mobile",
     "dataPostagem": "2026-04-05",
     "autor": "Ana Julia Reis de Mattos",
-    "caminhoArquivoMd": "posts/POST07.md"
+    "caminhoArquivoMd": "posts/POST07.md",
+    "caminhoArquivoGithub":"https://github.com/najumattos/blog-najuliarmattos/blob/main/public/posts/POST07.md"
   },
   {
     "id": "8",
     "titulo": "10 Heurísticas de Nielsen",
     "dataPostagem": "2026-04-29",
     "autor": "Ana Julia Reis de Mattos",
-    "caminhoArquivoMd": "posts/POST08.md"
+    "caminhoArquivoMd": "posts/POST08.md",
+    "caminhoArquivoGithub":"https://github.com/najumattos/blog-najuliarmattos/blob/main/public/posts/POST08.md"
   },
   {
     "id": "9",
     "titulo": "O que são os 'hackers'?",
     "dataPostagem": "2026-02-19",
     "autor": "Ana Julia Reis de Mattos",
-    "caminhoArquivoMd": "posts/POST09.md"
+    "caminhoArquivoMd": "posts/POST09.md",
+    "caminhoArquivoGithub":"https://github.com/najumattos/blog-najuliarmattos/blob/main/public/posts/POST09.md"
   }
 ]

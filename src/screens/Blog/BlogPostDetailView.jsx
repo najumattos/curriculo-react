@@ -4,6 +4,7 @@ import remarkFootnotes from 'remark-footnotes';
 import { Calendar, User } from 'lucide-react';
 import highlightJs from 'highlight.js';
 import 'highlight.js/styles/atom-one-dark.css';
+import BackButton from '../../components/BackButton';
 import ScrollToTopButton from '../../components/ScrollToTopButton';
 import MermaidBlock from '../../components/MermaidBlock';
 
@@ -31,6 +32,19 @@ export function BlogPostDetailView({ post, content, error }) {
           <div className="meta-item">
             <User size={16} />
             <span>{post.autor}</span>
+          </div>
+           <div className="meta-item">
+            {post.caminhoArquivoGithub ? (
+              <a
+                href={post.caminhoArquivoGithub}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visualizar no Github
+              </a>
+            ) : (
+              <span>Visualizar no Github</span>
+            )}
           </div>
         </div>
       </header>
