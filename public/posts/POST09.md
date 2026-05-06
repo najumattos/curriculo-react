@@ -1,5 +1,3 @@
-# O que são os “hackers”?
-
 Um  hacker  é  um  especialista  em  computação  com  conhecimento  profundo,capaz de entender e modificar sistemas, redes ou hardwares. Sua atuação foca em encontrar soluções criativas, otimizações ou brechas de segurança. Embora o termo seja  requentemente associado a crimes virtuais, a origem do conceito remete  aos  anos  60  e  descreve  pessoas  curiosas  e  habilidosas  que  criam soluções não convencionais para problemas complexos.
 
 No  cenário  da  cibersegurança,  esses  profissionais  são  classificados principalmente  por  suas  intenções.  Os  chamados  "White  Hats"  (ou  hackers éticos)  são  especialistas  contratados  para  encontrar  e  corrigir falhas, fortalecendo  a  proteção  dos  sistemas.  Já  os  "Black  Hats"  (cibercriminosos  ou crackers)  utilizam  seu  talento  de  forma  maliciosa  para  acessar  dados  sem autorização, roubar informações ou causar danos financeiros e estruturais.

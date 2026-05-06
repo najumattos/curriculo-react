@@ -1,4 +1,3 @@
-## 10 Heurísticas de Nielsen
 O que são Heurísticas?
 São atalhos mentais ou regras práticas de bom senso que ajudam a resolver problemas de usabilidade sem precisar "reinventar a roda". Aplicá-las pode eliminar muitos dos erros de usabilidade em produtos digitais.
 

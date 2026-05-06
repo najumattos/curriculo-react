@@ -1,5 +1,3 @@
-
-#
 Enquanto a **Arquitetura** define as fronteiras (as paredes da casa), a **Metodologia de Design** define como os moradores (as regras de negócio) se comportam e se comunicam.
 As combinações entre arquiteturas e metodologias de design permitem que você escolha a melhor ferramenta para cada nível do seu projeto, desde a organização das pastas até a forma como os serviços se comunicam.
 A grande sacada da engenharia de software moderna é que essas arquiteturas não são excludentes. Na verdade, elas funcionam como "peças de Lego" que se encaixam em diferentes níveis: Macro (o sistema inteiro) e Micro (dentro de cada serviço).

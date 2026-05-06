@@ -1,6 +1,4 @@
 
-# Comunicação cliente/API/Banco de Dados
-
 Esse documento tem o objetivo de explicar a importancia do uso de APIs para o bom relacionamento entre cliente/servidor
    ```bash
                cliente <------> Senha.Cofre

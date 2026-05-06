@@ -1,4 +1,3 @@
-# Tecnologias Mobile
 Ao escolher uma ferramenta, levar em consideração custo, desempenho e experiência do usuário (UX)
 
 ### Comparativo Geral

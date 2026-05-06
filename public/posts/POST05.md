@@ -1,5 +1,3 @@
-# Fascículo: Vazamento de Dados
-
 Prevenir o vazamento de informações é uma prioridade absoluta no ciclo de vida de qualquer aplicação, pois dados expostos podem comprometer a privacidade dos usuários e causar prejuízos financeiros severos. No entanto, a segurança perfeita é um alvo em constante movimento; por isso, além de construir barreiras robustas, é vital saber como reagir de forma técnica e ética quando um incidente ocorre
 Para um desenvolvedor, essas cartilhas funcionam como um guia de requisitos não funcionais e boas práticas de arquitetura voltadas para a segurança e conformidade (LGPD). Em vez de apenas "dicas de usuário", elas representam vulnerabilidades que você deve prever no código e na infraestrutura.
 

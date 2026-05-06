@@ -1,4 +1,3 @@
-# Linguagens Mobile
 Para o desenvolvimento mobile, cada abordagem possui uma linguagem de "primeira classe" (mais recomendada e suportada pelas donas das plataformas).
 
 ## Comparativo Geral

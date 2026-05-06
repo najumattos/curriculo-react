@@ -1,6 +1,6 @@
 import PostList from '../../components/PostList';
 import './BlogListView.css';
-
+import ScrollToTopButton from '../../components/ScrollToTopButton';
 /**
  * BlogListView
  * Responsabilidade: Exibir a lista de posts em cards
@@ -52,6 +52,7 @@ export function BlogListView({
       </div>
 
       <PostList posts={posts} onSelectPost={onSelectPost} />
+      <ScrollToTopButton/>
     </div>
   );
 }
