@@ -7,7 +7,7 @@ import './style.css';
 export default function Sobre() {
   return (
     <div className="container">
-      <h1>Sobre este Blog</h1>
+      <h1>Bem Vindo ao meu ecossistema tecnologico :)</h1>
       <div className="content">
         <ReactMarkdown remarkPlugins={[remarkGfm]}>
           {readmeContent}
