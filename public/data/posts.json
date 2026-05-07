@@ -78,5 +78,13 @@
     "autor": "Ana Julia Reis de Mattos",
     "caminhoArquivoMd": "posts/POST09.md",
     "caminhoArquivoGithub":"https://github.com/najumattos/blog-najuliarmattos/blob/main/public/posts/POST09.md"
+  },
+  {
+    "id": "10",
+    "titulo": "Conceitos Git e Github",
+    "dataPostagem": "2025-02-19",
+    "autor": "Ana Julia Reis de Mattos",
+    "caminhoArquivoMd": "posts/POST10.md",
+    "caminhoArquivoGithub":"https://github.com/najumattos/Estudos-Teoricos/blob/main/old/GitGithub.pdf"
   }
 ]
