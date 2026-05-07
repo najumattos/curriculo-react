@@ -110,17 +110,17 @@ Ao iniciar um diretório, criar um arquivo “.gitignore”no diretório do proj
 * Antes de fazer merge, atualize e revise usando o comando git pull;
 * Commite apenas o que for necessário utilizando o comando .gitignore corretamente.
 
-ESTRUTURA DE COMMIT (Emoji opcional): `:emoji: TIPO: mensagem` 
+ESTRUTURA DE COMMIT (Emoji opcional): `:emoji:TIPO: mensagem` 
 
 |  Emoji | Tipo | Uso |
 |-|-|-|
-| :tada: | START | :tada: START: Projeto inicial com estrutura básica |
+| :tada: | START | :tada:START: Projeto inicial com estrutura básica |
 | :sparkles: | FEAT | ✨FEAT: Nova Funcionalidade |
-| :bug: | FIX | :bug: FIX: Correção de Bug |
-| :memo: | DOCS | :memo: DOCS: Alterações na documentação
-| :lipstick: | STYLE | :lipstick: STYLE: Estilo (espaços, identação, ponto e vírgula, etc.)
-| :recycle: | REFACTOR | :recycle: REFACTOR: Refatoração de código, sem alterar comportamento
-| :white_check_mark: | TEST | :white_check_mark: TEST: Adição ou modificação de testes
-| :wrench: | CHORE | :wrench: CHORE: Tarefas de manutenção (ex: configs, scripts, etc.) |
+| :bug: | FIX | :bug:FIX: Correção de Bug |
+| :memo: | DOCS | :memo:DOCS: Alterações na documentação
+| :lipstick: | STYLE | :lipstick:STYLE: Estilo (espaços, identação, ponto e vírgula, etc.)
+| :recycle: | REFACTOR | :recycle:REFACTOR: Refatoração de código, sem alterar comportamento
+| :white_check_mark: | TEST | :white_check_mark:TEST: Adição ou modificação de testes
+| :wrench: | CHORE | :wrench:CHORE: Tarefas de manutenção (ex: configs, scripts, etc.) |
 
 Emojis: https://gitmoji.dev/
